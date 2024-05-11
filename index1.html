@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berger Hut - Home</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <img src="./images/logo.jpeg" alt="Logo">
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Berger Hut</h2>
+            <p>Your destination for delicious burgers!</p>
+            <a href="#menu" class="btn">Explore Our Menu</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">  
+                <h2>About Us</h2>  
+               
+                <p>At Berger Hut, we are dedicated artisans on a mission to redefine the burger experience. Each burger we craft is a labor of love, starting with locally sourced, premium ingredients to ensure freshness and flavor in every bite. What sets us apart is our unwavering commitment to quality and innovation. Step into our inviting atmosphere and experience the passion in every detail, from our handcrafted burgers to our warm customer service. We believe in fostering connections with our community and sharing our love for exceptional food with each visitor. Join us on a gastronomic journey and discover why Berger Hut is not just a place to eat, but a destination for burger enthusiasts seeking extraordinary flavors and unforgettable moments. Taste the difference, feel the passion, and savor the essence of Berger Hut.</p>
+                <a href="#services" class="btn">Know More About Our Services</a>
+            </div>
+           <div class="about-img">
+            <img src="./images/transform-your-webpage-s-hero-section-with-a-creat-dr1KQdUXS1ON6c1GhvpflA-GAbYEdkxQfujKea4vRgkXg.jpeg" alt="About section image">
+           </div>
+        </div>
+    </section>
+
+     <!-- Menu Section -->
+     <section id="menu" class="menu">
+            <h2>Our Menu</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <hr>
+                    <img src="./images/burger1.jpg" alt="">
+                    <h3>Classic Cheeseburger</h3> 
+                    <p>Indulge in our classic cheeseburger—juicy beef patty topped with melted cheese, crisp lettuce, ripe tomatoes, and tangy pickles, all nestled in a soft, toasted bun. A timeless favorite perfected at Berger Hut.</p>
+                    <!-- <a href="#order" class="btn">Order Now</a> -->
+                 </div>
+                <div class="menu-item">
+                    <hr>
+                    <img src="./images/burger2.jpg" alt="">
+                    <h3>Veggie Delight</h3> 
+                    <p>Savor our Veggie Delight Burger—a flavorful combination of veggie patty, roasted bell peppers, zucchini, and creamy avocado, served on a whole-grain bun. A delicious choice for plant-based enthusiasts at Berger Hut..</p>
+                    <!-- <a href="#order" class="btn">Order Now</a> -->
+                </div>
+                <div class="menu-item">
+                    <hr>
+                    <img src="./images/burger3.jpg" alt="">
+                    <h3>Spicy BBQ Burger</h3> 
+                    <p>Experience our Spicy BBQ Burger—a bold and savory delight featuring a flame-grilled beef patty smothered in tangy BBQ sauce, topped with crispy onion rings and pepper jack cheese. A mouthwatering favorite at Berger Hut.
+                    </p>
+                   <!-- <a href="#order" class="btn">Order Now</a> -->
+
+                </div>
+            </div>
+   
+<!-- Order Now -->
+<!-- Order Now Button -->
+<div class="order">
+<button id="openOrderFormBtn" class="btn" onclick="openOrderForm()">Order Now</button>
+</div>
+<!-- Order Form (Initially Hidden) -->
+<div id="orderFormModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeOrderForm()">&times;</span>
+        <h2>Order Now</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="tel" placeholder="Phone Number" required>
+            <textarea placeholder="Your Order" required></textarea>
+            <button type="submit">Submit Order</button>
+        </form>
+    </div>
+</div>
+ </section>
+    <!-- Services Section -->
+    <section id="services" class="services">
+         <h1>Our Services</h1>
+         <div class="service-items">
+            <div class="service-item">
+                <div class="service-content"> 
+                    <h3>Menu Variety</h3>
+                    <em>Explore our diverse range of burger creations to satisfy every craving.</em>
+                       <p> Discover the diverse menu variety at Berger Hut, featuring a range of mouthwatering options such as classic favorites like the Classic Cheeseburger and Spicy BBQ Burger, alongside innovative options such as the Veggie Delight Burger and specialty creations. Indulge in our juicy Grilled Beef Burger, savor the extra crispy goodness of our Crunchy Chicken Burger, or opt for the classic flavors of our Signature Cheeseburger. Whether you're a meat lover or prefer a plant-based delight, our menu has something delicious for every palate. Experience burger perfection at Berger Hut!</p>
+                </div>
+               <div class="service-pics">
+                <img src="./images/service_menu1.jpg" alt="burger">
+                <img src="./images/service_menu2.jpg" alt="burger">
+               </div>
+            </div>
+            <div class="service-item">
+                <div class="service-content"> 
+                    <h3>Quality Ingredients</h3>
+                    <em>We source our ingredients from local suppliers to ensure freshness and taste.</em>
+                       <p>At Berger Hut, we take pride in our commitment to quality ingredients sourced from local suppliers. Our burgers are crafted with hand-picked, crisp vegetables and premium spices, enhancing the flavors of each creation. By supporting local suppliers, we not only guarantee the finest ingredients but also contribute to sustainability and community involvement. Experience the difference at Berger Hut, where every ingredient is selected with care to deliver a truly satisfying burger experience.</p>
+                </div>
+               <div class="service-pics">
+                <img src="./images/ingredients1.jpg" alt="ingredients">
+                <img src="./images/ingredients2.jpg" alt="ingredients">
+               </div>
+            </div>
+            <div class="service-item">
+                <div class="service-content"> 
+                    <h3>Fast Delivery</h3>
+                  <i>Enjoy quick and reliable delivery services for your convenience.</i>
+                        <p> At Berger Hut, we understand the importance of fast and reliable delivery to bring our delicious burgers straight to your doorstep. Enjoy the convenience of prompt service, ensuring your meal arrives hot and fresh. Our dedicated delivery team is committed to providing exceptional service, making your burger experience convenient and enjoyable. Experience quick and reliable delivery with Berger Hut!
+                    </p>
+                </div>
+               <div class="service-pics">
+                <img src="./images/service-truck1.jpg" alt="service-truck">
+                <img src="./images/service-truck2.jpg" alt="service-truck">
+               </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Experience -->
+    <section id="customers" class="customers">
+            <h1>Know What Our Customers say about Us.</h1>
+            <div class="container">
+            <div class="customer">
+                <img src="./images/customer1.jpg" alt="">
+                <h3>Sarah Johnson</h3>
+                <p>"Berger Hut never disappoints! The burgers are always fresh and bursting with flavor. The staff is friendly and the service is excellent. Highly recommend!"</p>
+            </div>
+            <div class="customer">
+                <img src="./images/customer2.jpg" alt="">
+                <h3>Emily Taylor</h3>
+                <p>"As a vegetarian, I appreciate the Veggie Delight Burger at Berger Hut. It's so tasty and satisfying. Great options for plant-based eaters!"</p>
+            </div>
+            <div class="customer">
+                <img src="./images/customer3.jpg" alt="">
+                <h3>Kevin Lee</h3>
+                <p>"I'm a burger enthusiast and Berger Hut is my go-to spot. Their Spicy BBQ Burger is incredible! The quality of ingredients is top-notch. 5 stars!"
+                </p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="customer">
+                <img src="./images/customer4.jpg" alt="">
+                <h3>Jessica Khanna</h3>
+                <p>"The customer service at Berger Hut is outstanding. They always go above and beyond to ensure a great dining experience. Highly recommended!"</p>
+            </div>
+            <div class="customer">
+                <img src="./images/customer5.jpg" alt="">
+                <h3>Alex Smith</h3>
+                <p>"Berger Hut strikes the perfect balance between quality and value. Their burgers are a treat for the taste buds. Can't wait to try their new specials!"</p>
+            </div>
+            <div class="customer">
+                <img src="./images/customer6.jpg" alt="">
+                <h3>Kate Wilson</h3>
+                <p>"I recently hosted a party and ordered burgers from Berger Hut. Everyone raved about how tasty they were. Great service and prompt delivery!"</p>
+            </div>
+        </div>
+    </section>
+    <!-- Gallery -->
+<section id="gallery" class="gallery">
+    <h1>Explore the Gallery</h1>
+    <div class="gallery-sec">
+        <h3>Pantry Delights</h3>
+        <div class="gallery-pics">
+            <img src="./images/pantry2.jpg" alt="pantry">
+            <img src="./images/pantry3.jpg" alt="pantry">
+            <img src="./images/pantry4.jpg" alt="pantry">
+            <img src="./images/pantry1.jpg" alt="pantry">
+       </div>
+    </div>
+    <div class="gallery-sec">
+        <h3>Kitchen Creations</h3>
+        <div class="gallery-pics">
+            <img src="./images/kitchen1.jpg" alt="burger">
+            <img src="./images/kitchen4.jpg" alt="burger">
+            <img src="./images/kitchen3.jpg" alt="burger">
+            <img src="./images/kitchen2.jpg" alt="burger">
+       </div>
+    </div>
+    <div class="gallery-sec">
+        <h3>Inner Dining Ambiance</h3>
+        <div class="gallery-pics">
+            <img src="./images/inner22.jpg" alt="burger">
+            <img src="./images/inner12.png" alt="burger">
+            <img src="./images/inner23.jpg" alt="burger">
+            <img src="./images/inner21.jpg" alt="burger">
+       </div>
+    </div>
+    <div class="gallery-sec">
+        <h3>Pink & Blue Themes Chic Dining Space</h3>
+        <div class="gallery-pics">
+            <img src="./images/inner15.jpg" alt="burger">
+            <img src="./images/inner11.jpg" alt="burger">
+            <img src="./images/inner13.jpg" alt="burger">
+            <img src="./images/inner14.jpg" alt="burger">
+       </div>
+    </div>
+    <div class="gallery-sec">
+        <h3>AI Fresco Dining</h3>
+        <div class="gallery-pics">
+            <img src="./images/outer2.jpg" alt="burger">
+            <img src="./images/outer1.jpg" alt="burger">
+            <img src="./images/outer4.jpg" alt="burger">
+            <img src="./images/outer5.jpg" alt="burger">
+       </div>
+    </div>
+</section>
+   
+<!-- Contact Section -->
+    <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <p>Have a question or feedback? We'd love to hear from you!</p>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+    </section>
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Berger Hut. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
